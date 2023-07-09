@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="Logo blanco.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Destino</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="boton">
+                <a class="shadow__btn" href="login.html" target="_blank"> 
+                    Login/Registro
+                </a>
+            </div>
+            
+        </header>
+        <div class="busqueda">
+            <div>
+                <h2>Elije tu Destino</h2>
+            </div>
+            <form class="search-box">
+                <input type="text" placeholder="Buscar">
+                <button type="submit"><img src="Imagenes/lupa.png" alt=""></button>
+                <div class="slider">
+                    <div><img src="Imagenes/hotel.png" alt=""></div>
+                    <div><img src="Imagenes/camara.png" alt=""></div>
+                    <div><img src="Imagenes/playa.png" alt=""></div>
+                    <div><img src="Imagenes/Avion.png" alt=""></div>
+                    <div><img src="Imagenes/hotel.png" alt=""></div>
+                </div>
+            </form>
+        </div>
+        <div class="carrusel">
+            <div id="slide">
+                <div class="item" style="background-image: url(Imagenes/machupicchu.jpg);">
+                    <div class="content">
+                        <div class="nombre">MACHUPICCHU</div>
+                        <div class="descripcion">Machu Picchu es el sitio arqueológico inca más sobresaliente debido a su creativo diseño urbano, la belleza de su arquitectura y el fino trabajo en piedra de sus construcciones.</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Imagenes/montaña7colores.jpg);">
+                    <div class="content">
+                        <div class="nombre">MONTAÑA DE 7 COLORES</div>
+                        <div class="descripcion">A unos 100 kilómetros al sureste de Cusco, Perú, existe un arcoíris hecho montaña. Se trata de la montaña de los Siete Colores, también conocida como Vinicunca o Arcoíris</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Imagenes/brasil.jpg);">
+                    <div class="content">
+                        <div class="nombre">BRASIL</div>
+                        <div class="descripcion">Tierra de belleza arrolladora, de alegría, colores, de ganas de música, fiesta y bailoteo. País de contrastes, de junglas de acero y selvas inexploradas, de favelas y rascacielos, de olas salvajes y cascos históricos donde pasear es puro placer,</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Imagenes/cancun.jpg);">
+                    <div class="content">
+                        <div class="nombre">CANCÚN</div>
+                        <div class="descripcion">Con sus playas de fina arena blanca, aguas azul turquesa y espectaculares arrecifes de coral que yacen frente a sus costas, no es ninguna sorpresa que Cancún sea uno de los destinos turísticos más populares de México.</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Imagenes/Iquitos.jpg);">
+                    <div class="content">
+                        <div class="nombre">IQUITOS</div>
+                        <div class="descripcion">La mejor época para viajar a Iquitos es desde abril hasta octubre, cuando las condiciones climáticas son un poco más estables y las probabilidades de lluvia disminuyen.</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Imagenes/huacachina.jpg);">
+                    <div class="content">
+                        <div class="nombre">HUACACHINA</div>
+                        <div class="descripcion">El Oasis de Huacachina está ubicado a 5 km al oeste de la ciudad de Ica, a unas 4 horas al sur de Lima. El también llamado Oasis de las Américas es un lugar que no os podéis perder por nada del mundo, pues la diversión y el deporte de aventura está asegurado.</div>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="buscado">
+            <div>
+                <h2>Lo más Buscado</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="face front">
+                        <img src="Imagenes/Arequipa.jpg" alt="">
+                        <h3>Arequipa</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>Arequipa</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rem eaque quis sequi. Id veritatis perferendis at iste animi explicabo molestiae mollitia delectus rerum?</p>
+                        <div class="link">
+                            <a href="#">Detalles</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face front">
+                        <img src="Imagenes/buenosaires.jpg" alt="">
+                        <h3>Buenos Aires</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>Buenos Aires</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rem eaque quis sequi. Id veritatis perferendis at iste animi explicabo molestiae mollitia delectus rerum?</p>
+                        <div class="link">
+                            <a href="#">Detalles</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face front">
+                        <img src="Imagenes/colombia.jpg" alt="">
+                        <h3>colombia</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>Colombia</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rem eaque quis sequi. Id veritatis perferendis at iste animi explicabo molestiae mollitia delectus rerum?</p>
+                        <div class="link">
+                            <a href="#">Detalles</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-empresas">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="Imagenes/empresas/Avianca.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Latam.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/movilbus.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Oltursa.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Peruvian.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Sky.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Star Peru.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Avianca.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Latam.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/movilbus.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Oltursa.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Peruvian.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Sky.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/empresas/Star Peru.png" alt="">
+                </div>
+            </div>
+        </div>
+        <footer>
+
+            <div class="container__footer">
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="Logo morado.png" alt="">
+                    </div>
+                    <div class="terms">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</p>
+                    </div>
+                </div>
+                <div class="box__footer">
+                    <h2>Futurismo</h2>
+                    <a href="#">Inicio</a>
+                    <a href="#">Destinos</a>
+                    <a href="#">Ofertas</a>
+                    <a href="#">Nosotros</a>              
+                </div>
+    
+                <div class="box__footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+                </div>
+    
+            </div>
+    
+            <div class="box__copyright">
+                <hr>
+                <p>Todos los derechos reservados © 2023 <b>Futurismo.com</b></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script-carrusel.js"></script>
+</body>
+</html>
